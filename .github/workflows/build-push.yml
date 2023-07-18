@@ -2,6 +2,8 @@ on:
   push:
     branches:
       - "main"
+  schedule:
+    - cron: "0 0 * * 1" # Rebuild packages every monday morning
 
 permissions:
   packages: write
