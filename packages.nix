@@ -17,7 +17,6 @@ with pkgs; [
   procs
   pv
   ranger
-  redis
   ripgrep
   sd
   tldr
